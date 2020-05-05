@@ -1,0 +1,15 @@
+<h2>Student Detail</h2>
+<h3><i>Just a FormControl</i></h3>
+<label class="center-block"> First Name:
+    <input class="form-control" [formControl]="fname">
+</label>
+<label class="center-block">Last Name:
+    <input class="form-control" [formControl]="lname">
+</label>
+
+<p>
+    First Name : {{fname.value}}
+</p>
+<p>
+    Last Name : {{lname.value}}
+</p>
